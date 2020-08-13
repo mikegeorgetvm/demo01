@@ -16,9 +16,9 @@ package com.example.demo;
 	
 	@GetMapping("/hello")
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-		return String.format("Hello %s! from Mike Version 02", name);
+		return String.format("Hello %s! from Mia Version 101", name);
 	}
 }
- //		Mike <mikegeorgetvm@gmail.com>
- //		Mia <miageorgetvm@gmail.com>
- //		1
+ //		Mike <mikegeorgetvm@gmail.com>	
+ //		Mia <miageorgetvm@gmail.com>	101
+ 
